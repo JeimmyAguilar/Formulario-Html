@@ -1,0 +1,87 @@
+  /* estilos generales*/
+ *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+ }
+
+ /* colores de Texto */
+ .text-blue {
+     color: rgb(14, 14, 143);
+ }
+
+ /* colores de fondo */
+ .bg-gray {
+     background-color: lightgray ;
+     background-image: url("../Img/Imagen1.jpg\ \(2\).jpg");
+      background-size: cover; 
+     /*background-position: la-medida-en-x  la-medida-en-y*/
+     background-position: 20; 
+     /*background-image: url("../ "); */
+
+ }
+
+  .bg-white {
+ background-color: lightseagreen
+
+ } 
+  /* contenedor de formulario */
+  .form-container {
+    padding: 4rem;
+    width: 30%;
+    height: 20rem; 
+    /*border: tipo de borde> <medida del borde> <color del borde>;*/
+  border:solid 0.1rem grey;
+  border-radius: 0.4rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  /* box-shadow: <posicion en y de la sombra><posicion en x> <nivel de distorcion> <color>; */
+  box-shadow: -11px 11px 10px rgb(49, 49, 49);
+  }
+   
+  /* contenedor de los unputs*/
+  .input-container {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+
+ }
+.input-container input{
+    border-radius: 0.4rem; 
+    border: solid 0.1rem blue;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+/*Contenedor checkbox */
+.check-container {
+    margin-top: 0.7rem;
+
+}
+.check-container {
+    margin-right: 0.3rem;
+}
+
+/* Estilos de boton */
+.btn-container{
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;  
+}
+
+.btn{
+padding: 0.5rem;
+background-color: hsl(240, 22%, 51%);
+border: 0px;
+border-radius: 1rem;
+color : white
+}
+ .btn:hover{
+    background-color: hsl(300, 36%, 74%);
+ }
+ /* Alineacion del formulario*/
+ .screen-form {
+ display: flex;
+ justify-content: center;
+ margin-top: 7%;
+}
